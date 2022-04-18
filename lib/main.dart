@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:nova/homapage.dart';
-import 'package:nova/logIn.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:nova/pages/homapage.dart';
+import 'package:nova/pages/logIn.dart';
+import 'package:nova/utils/routes.dart';
+import 'package:nova/widgets/themes.dart';
 
 void main() {
   runApp(nova());
@@ -15,15 +17,15 @@ class nova extends StatelessWidget {
     return MaterialApp(
       home: HomePage(),
       themeMode: ThemeMode.light,
-      theme: ThemeData(
+      debugShowCheckedModeBanner: false,
+      theme: MyTheme.themeData,
+      darkTheme: ThemeData(
         brightness: Brightness.dark,
-        primarySwatch: Colors.purple,
-        fontFamily: GoogleFonts.adventPro().fontFamily,
       ),
-      initialRoute: "/login",
+      initialRoute: "/home",
       routes: {
-        "/login": (context) => logInPage(),
-        "/home": (context) => HomePage(),
+        MyRoutes.LogIn: (context) => logInPage(),
+        MyRoutes.Home: (context) => HomePage(),
       },
     );
   }
