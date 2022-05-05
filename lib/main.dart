@@ -22,7 +22,7 @@ class nova extends StatelessWidget {
       darkTheme: ThemeData(
         brightness: Brightness.dark,
       ),
-      initialRoute: "/login",
+      initialRoute: "/home",
       routes: {
         MyRoutes.LogIn: (context) => logInPage(),
         MyRoutes.Home: (context) => HomePage(),
