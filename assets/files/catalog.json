@@ -1,29 +1,28 @@
 {
-    "products" : [
+    "products": [
         {
-        "id": 1,
-        "name": "IPhone 12 Pro",
-        "desc": "Apple Iphone 12th Gen",
-        "price": 4131,
-        "color": "#33505a",
-        "image": "https://cdn.shopify.com/s/files/1/0504/5787/0536/products/71OO_WDhyFL._AC_SX522_360x.jpg?v=1629660254"
+            "id": 1,
+            "name": "IPhone 12 Pro",
+            "desc": "Apple Iphone 12th Gen",
+            "price": 4131,
+            "color": "#33505a",
+            "image": "https://cdn.shopify.com/s/files/1/0504/5787/0536/products/71OO_WDhyFL._AC_SX522_360x.jpg?v=1629660254"
         },
         {
-        "id": 2,
-        "name": "Titan Watch",
-        "desc": "Titan all men's watch . Best In the world ",
-        "price": 2131,
-        "color": "#33505a",
-        "image": "https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010414626_02-2100.jpg"
+            "id": 2,
+            "name": "Titan Watch",
+            "desc": "Titan all men's watch . Best In the world ",
+            "price": 2131,
+            "color": "#33505a",
+            "image": "https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010414626_02-2100.jpg"
         },
         {
-         "id": 3,
-        "name": "Nike Air",
-        "desc": "Nike Airmax shoes For Men ",
-        "price": 2830,
-        "color": "#33505a",
-        "image": "https://5.imimg.com/data5/YH/EO/MY-39773238/nike-air-max-black-white-500x500.jpg"
+            "id": 3,
+            "name": "Nike Air",
+            "desc": "Nike Airmax shoes For Men ",
+            "price": 2830,
+            "color": "#33505a",
+            "image": "https://5.imimg.com/data5/YH/EO/MY-39773238/nike-air-max-black-white-500x500.jpg"
         }
-
     ]
 }
